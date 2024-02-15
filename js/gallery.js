@@ -66,19 +66,7 @@ const images = [
 
 // ! marking
 const unorderedList = document.querySelector(".gallery");
-// const createGalleryItem = ({ preview, description, original }) => {
-//   const listItems = document.createElement("li");
-//   listItems.classList.add("gallery-item");
-//   const img = document.createElement("img");
-//   img.classList.add("gallery-image");
-//   img.src = preview;
-//   img.alt = description;
 
-//   listItems.appendChild(img);
-//   return listItems;
-// };
-// const galleryItems = images.map(createGalleryItem);
-// unorderedList.append(...galleryItems);
 const galleryItems = images
   .map(
     (image) => `
